@@ -1,0 +1,11 @@
+id por meio das variaveis : form e botão ;
+
+adicionar um evento por meio de uma função atravez do preventDefault ;
+
+crio uma classe de validacao que ira pegar todas as validações do projeto;
+e crio o objeto dessa validação
+
+usar o metodo validate para validar o objeto referente ao form(dentro do evento do click em submit);
+dentro da classe irei usar o metodo validate para pegar todos que tiverem a tag input , depois transformar uma HTMLCollection em array 
+e criar um loop nos inputs e validação mediante ao que for encontrado (forEach) 
+;

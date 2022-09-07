@@ -1,0 +1,22 @@
+:root {
+    --cor-amarelo: #FFBC42;
+    --cor-gelo: #DBDBDB;
+    --cor-cinza-claro01: #6A6A6A;
+    --cor-cinza-claro02: #C1C1C1;
+    --cor-cinza: #5D5C5C;
+    --preto:  #080808;
+    
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ /* body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-family: 'Quicksand', sans-serif;
+  font: 20px ;
+    color: #ffffff;*/

@@ -4,35 +4,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>System</title>
-
+  <link  href="./CSS/global.css" rel="stylesheet">
   <link href="CSS/style.css" rel="stylesheet">
 
 </head>
 <body>
-  <div class='container'>
-    <div>
-
-      <h1>Acessar Sistema</h1>
-      
-      <div class="idusuario">
-        <label id="usuarioLabel" for="idusuario"></label>
-        <input type="text" id="usuario" placeholder="Usuário" required>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+    </head>
+    
+    <body>
+    
+    <div class='container'>
+      <div class='card'>
+        <h1> Entrar </h1>
+        
+        <div id='msgError'></div>
+        
+        <div class='label-float'>
+          <input type='text' id='usuario' paceholder='' required>
+          <label id='userLabel' for='usuario'>Usuario</label>
+        </div>
+        
+        <div class='label-float'>
+          <input type='password' id='senha' paceholder='' required>
+          <label id='senhaLabel' for='senha'>Senha</label>
+          <i class="fa fa-eye" aria-hidden="true"></i>
+        </div>
+        
+        <div class='justify-center'>
+          <button onclick='entrar()'>Entrar</button>
+        </div>
+        
+        <div class='justify-center'>
+          <hr>
+        </div>
+        
+        <p> Não tem uma conta?
+          <a href='https://cdpn.io/thicode/debug/NWdGRgK/bZrQWKdyRyQk'> Cadastre-se </a>
+        </p>
+        
       </div>
-
-      <div class="idsenha">
-        <label id="senhaLabel" for="idsenha"></label>
-        <input type="password" id="senha" placeholder="Senha" required>
       </div>
-
-      <div class="idEntrar">
-        <label id="entrarLabel" for="idEntrar"></label>
-        <button onclick="entrar()">Entrar</button>
-      </div>
+    </body>
 
       <a href="funcionario.html">Cadastrar Funcionário</a>
       <a href="cliente.html">Cadastrar Cliente</a>
 
     </div>
   </div>
+  <script src="login.js"></script>
 </body>
 </html>
