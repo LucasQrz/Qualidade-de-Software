@@ -1,0 +1,92 @@
+body{
+    background-color: #080808;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+/* centralizar e alinhar no meio da tela (100vs pega toda a tela disponivel no navegador) */
+.area-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* cor de fundo do formulário, definição de tamanho e circulação da borda, e campos em modo coluna */
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5D5C5C;
+    width: 300px;
+    height: 300px;
+    padding: 35px;
+    border-radius: 15px;
+}
+
+/* campos de usuário e senha em formato coluna centralizados no meio da tela */
+.login form{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+
+/* cor das letras digitadas, circulação das bordas e cor de fundo dela nos campos Usuário e Senha */
+.login input{
+    margin-top: 10px;
+    background-color: #6A6A6A;
+    padding-left: 10px;
+    color: #FFBC42;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 10px;
+}
+ 
+.login img{
+    width: 350px;
+    height: auto;
+}
+
+/* estilização do olho de Mostrar/Ocultar senha */
+/* OBS: quando muda o tamanho da tela o olho muda de local. Falta arrumar. */
+.login form img{
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+    left: 53%;
+    top: 52%;
+}
+
+/* edição dos textos pre estabelicidos dentro do campos de usuário e senha */
+.login input::placeholder{
+    color: #FFBC42;
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+/* edição do botão */
+.login form [type="submit"]{
+    display: block;
+    background-color: #080808;
+    font-size: 18px;
+    font-weight: bold;
+    width: 90px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+/* cor do texto Cadastrar */
+p{
+    color: #FFBC42;
+}
+
+/* edição do texto Funcionário */
+a{
+    color: #FFBC42;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: bold;
+}
