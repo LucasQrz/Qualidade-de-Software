@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/indexStyle.css">
     <title>Login</title>
 </head>
 <body>
@@ -12,17 +12,20 @@
             </div>
             
             <form method="POST">
-                <input type="text" name="nome" placeholder="Usuário" autofocus required>
-                <input type="password" name="senha" placeholder="Senha" required>
-                <img src="imagens/olho.png">
-                <input type="submit" value="Entrar">
-
+                <input type="text" name="usuario" placeholder="Usuário" autofocus required
+                id="inputUsuarioLogin">
+                <input type="password" name="senha" placeholder="Senha" required
+                id="inputSenhaLogin">
+                <input type="submit" value="Entrar" id="btnEntrar">
             </form>
-
-            <p>Cadastrar <a href="#">Funcionário</a></p>
-
         </div>
+
+        <div class="olho">
+            <div>
+                <img src="imagens/olho.png">
+            </div>
+        </div>
+        
     </section>
-    <script src="javascript/js.js"></script>
 </body>
 </html>
