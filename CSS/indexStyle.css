@@ -3,6 +3,20 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
 }
+.cabecalho {
+    background-color: #5d5c5c;
+    padding: 4rem 0;
+}
+
+.area-logo {
+    display: flex;
+    position: absolute;
+    width: 325px;
+    height: 100px;
+    left: 10px;
+    top: 20px;
+    
+}
 
 /* centralizar e alinhar no meio da tela (100vs pega toda a tela disponivel no navegador) */
 .area-login{
@@ -42,11 +56,6 @@ body{
     outline: none;
     border-radius: 10px;
 }
- 
-.login img{
-    width: 350px;
-    height: auto;
-}
 
 /* estilização do olho de Mostrar/Ocultar senha */
 /* OBS: quando muda o tamanho da tela o olho muda de local. Falta arrumar. */
@@ -81,6 +90,10 @@ body{
 /* cor do texto Cadastrar */
 p{
     color: #FFBC42;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 10px;
 }
 
 /* edição do texto Funcionário */
